@@ -34,6 +34,25 @@ llama-2-7b-chat.ggmlv3.q4_0.bin
 ```
 
 ```bash
+Download the quantize model from the link provided in model folder & keep the model in the model directory:
+## Download the Llama 2 Model:
+
+llama-2-7b-chat.ggmlv3.q4_0.bin
+model should be placed in model folder
+
 ## From the following link:
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+```
+
+```bash
+python store_index.py
+```
+```bash
+# Finally run the following command
+python app.py
+```
+```bash
+Now,
+
+open up localhost:
 ```
